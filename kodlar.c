@@ -29,7 +29,7 @@ int main (){
 
 void kurallar (char kelime[],char tahmin[]){
     if(tekrar == 6){
-        printf("\n\nhakkiniz bitmistir ! \n\t\t KAYBETTINIZ \n\n DOGRU KELIME : \n");
+        printf("\n\nhakkiniz bitmistir ! \n\t\t KAYBETTINIZ \n\n ");
         bitim(kelime,tahmin);
 
     }
@@ -94,7 +94,7 @@ void bitim(char kelime[],char tahmin[]){
             for (int i = 0 ; i < 5 ; i++){
                 printf(yesil"%c\t"siyah,kelime[i]);
         }
-            printf("cikiliyor ...");
+            printf("\ncikiliyor ...");
         }
 }
 
